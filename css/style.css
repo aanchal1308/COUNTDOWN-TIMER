@@ -1,0 +1,115 @@
+
+@font-face {
+  font-family: 'Quicksand-Regular';
+  src: url('../fonts/Quicksand-Regular.eot');
+  src: url('../fonts/Quicksand-Regular.woff') format('woff'),
+       url('../fonts/Quicksand-Regular.ttf') format('truetype'),
+       url('../fonts/Quicksand-Regular.svg#Quicksand-Regular') format('svg'),
+       url('../fonts/Quicksand-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoCondensed-Regular';
+  src: url('../fonts/RobotoCondensed-Regular.eot');
+  src: url('../fonts/RobotoCondensed-Regular.woff') format('woff'),
+       url('../fonts/RobotoCondensed-Regular.ttf') format('truetype'),
+       url('../fonts/RobotoCondensed-Regular.svg#RobotoCondensed-Regular') format('svg'),
+       url('../fonts/RobotoCondensed-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GreatVibes-Regular';
+  src: url('../fonts/GreatVibes-Regular.eot');
+  src: url('../fonts/GreatVibes-Regular.woff') format('woff'),
+       url('../fonts/GreatVibes-Regular.ttf') format('truetype'),
+       url('../fonts/GreatVibes-Regular.svg#GreatVibes-Regular') format('svg'),
+       url('../fonts/GreatVibes-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+ body{
+	background-size: cover;
+	font-family: 'Quicksand-Regular', sans-serif;
+	color: #FFF;
+}
+
+h1{ 
+ 
+ font-size: 100px; 
+ font-weight: bold; 
+ text-shadow: 0 7px 8px #c4b59d, 0px -1px 0px #fff;
+ letter-spacing: -1px;
+ margin: 10% 0 24px;
+ text-align: center;
+ }
+ 
+ 
+
+ p{
+	 font-size: 25px;
+	 margin: 0 30% 0;
+	 font-family: 'RobotoCondensed-Regular', sans-serif;
+	 line-height: 2;
+	
+ }
+ 
+#header {
+	 font-size: 50px;
+	 margin: 44px 0 0;
+	 font-family: 'GreatVibes-Regular', sans-serif;
+	
+	 
+ }
+ b{
+	 color:#550815;
+	 
+ }
+ 
+.countdown {
+	color: #FFF;
+	margin-top: 10px;
+	border:none;
+	padding:5px;
+	background: rgba(0, 0, 0, 0.6);
+	height:170px;
+}
+
+#clock span{
+	float:left;
+	margin: 1% 2.5%;
+	font-size: 80px; 
+	text-align: center;
+	font-weight: 500;
+	width: 20%;
+	box-sizing: border-box;
+}
+
+
+#clock:after{
+	content:"";
+	display: block;
+	clear: both;
+}
+
+#units span{
+	float:left;
+	width:25%;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 20px;
+  	font-weight: 500;
+	text-transform: uppercase;
+	
+}	
+
+
+ 
+
+
