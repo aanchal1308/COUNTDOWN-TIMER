@@ -1,3 +1,3 @@
 # COUNTDOWN-TIMER
 Responsive and creative coming soon page using JavaScript and CSS.
-COUNTDOWN-TIMER/img/Untitled.png
+![screenshot](/../<master>COUNTDOWN-TIMER/img/Untitled.png?raw=true "screenshot")
